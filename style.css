@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 1366px;
+    margin: auto;
+}
+.container .header {
+    background-color: #fbf5f9;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+    align-items: flex-end;
+}
+.container .header img {
+    width: 10%;
+}
+
+.header .menu {
+    display: flex;
+    justify-content: space-around;
+    
+}
+.header .form .input {
+    margin-left: 800px;
+    margin-bottom: 25px;
+    line-height: 20px;
+    margin-right: 5px;
+}
+.header .form button {
+    padding: 3px;
+    background-color: springgreen;
+}
+.header .menu  div {
+    padding: 8px 20px;
+    border: 1px solid #fbf5f9;
+
+    
+}
+.menu div:hover {
+    color: #ce0645;
+    border-radius: 10px;
+    border: #ce0645 solid 1px;
+}
+.banner img {
+    width: 1366px;
+    height: 300px;
+}
+
+.sub .title {
+    color: #ce0645;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 24px;
+    border-bottom: #ce0645 solid 2px;
+    width: 500px;
+    margin: auto;
+    line-height: 60px;
+}
+.subnav .item {
+    width: 16%;
+    padding: 10px;
+    background-color: #f3f3f3;
+    text-align: justify;
+    box-shadow:1px 1px 1px 1px grey,1px 1px 1px 1px grey;
+}
+.subnav {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+.subnav .item img {
+    width: 200px;
+    height: 100px;
+}
+.item .bold {
+    margin: 10px 0;
+    color: #d00847;
+    font-size: 20px;
+    
+}
+.footer {
+    margin-top: 30px;
+    background-color: #cf0746;
+    line-height: 40px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+.icon i {
+    font-size: 20px;
+    margin: 0 5px;
+}
